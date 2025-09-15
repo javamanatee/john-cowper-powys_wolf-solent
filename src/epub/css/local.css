@@ -8,6 +8,7 @@
 	text-indent: 0;
 }
 
+[epub|type~="z3998:verse"] p + p,
 [epub|type~="z3998:song"] p + p{
 	margin-top: 1em;
 }
@@ -46,6 +47,7 @@ footer{
 
 /* Centered dedications */
 section[epub|type~="dedication"]{
+	font-variant: small-caps;
 	text-align: center;
 }
 
@@ -72,3 +74,9 @@ section[epub|type~="dedication"] > *{
 	}
 }
 /* End centered dedications */
+
+/* telegram */
+.telegram{
+	font-variant: all-small-caps;
+}
+/* end telegram */
